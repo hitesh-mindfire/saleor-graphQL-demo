@@ -1,7 +1,6 @@
 import ProductCard from "@/components/ProductCard";
 import client from "@/lib/ApolloClient";
 import { gql } from "@apollo/client";
-
 const GET_PRODUCTS = gql`
   query GetProducts {
     products(first: 15, channel: "default-channel") {
