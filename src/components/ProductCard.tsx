@@ -32,10 +32,10 @@ export default function ProductCard({ product }: ProductCardProps) {
         className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 ease-in-out transform hover:scale-110"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-40" />
-      <h2 className="text-lg font-bold mt-4 text-white shadow-lg hover:text-gray-300 transition duration-300">
+      <h2 className="text-lg font-bold mt-4 p-2 text-white shadow-lg hover:text-gray-300 transition duration-300">
         {product?.name}
       </h2>
-      <p className="text-gray-200 mt-2 text-lg font-semibold shadow-lg mb-4">
+      <p className="text-gray-200 mt-2 px-2 text-lg font-semibold shadow-lg mb-4">
         {product?.pricing?.priceRange?.start?.gross?.amount}{" "}
         {product?.pricing?.priceRange?.start?.gross?.currency}
       </p>
