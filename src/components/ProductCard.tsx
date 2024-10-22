@@ -1,27 +1,4 @@
-export interface Product {
-  id: string;
-  name: string;
-  thumbnail: {
-    url: string;
-  };
-  category: {
-    name: string;
-  };
-  pricing: {
-    priceRange: {
-      start: {
-        gross: {
-          amount: number;
-          currency: string;
-        };
-      };
-    };
-  };
-}
-
-interface ProductCardProps {
-  product: Product;
-}
+import { ProductCardProps } from "@/types/ProductTypes";
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
