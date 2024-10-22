@@ -28,15 +28,10 @@ cd your-repo-name
 Step 2: Install Dependencies
 npm install
 
-Step 3: Set Up Environment Variables
-Create a .env file in the root of your project and add the following environment variables:
-NEXT_PUBLIC_GRAPHQL_API=https://cloud.saleor.io/graphql/
-
-
-Step 4: Run the Development Server
+Step 3: Run the Development Server
 npm run dev
 The app will run on http://localhost:3000.
 
-Step 5: Open Your Browser
+Step 4: Open Your Browser
 Navigate to http://localhost:3000 in your browser to see the application running.
 ```
