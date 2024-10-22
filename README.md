@@ -32,7 +32,6 @@ Step 3: Set Up Environment Variables
 Rename .env.example to .env.local file in the root of your project and replace "YOUR_GENERATED_SALEOR_API" with the API url you will generate from the Saleor Account:
 - Login here https://cloud.saleor.io/graphql/ and get the graphQL API Url
 
-
 Step 4: Run the Development Server
 npm run dev
 The app will run on http://localhost:3000.
